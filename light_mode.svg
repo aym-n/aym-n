@@ -38,7 +38,7 @@
   <text x="390" y="30" fill="#333"> <!-- GitHub Mine Shaft -->
     <tspan x="390" y="30">aym-n@github</tspan> -———————————————————————————————————————————-—-
     <tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ................................... </tspan><tspan class="value">Fedora Workstation</tspan>
-    <tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value" id="age_data">22 years, 6 months, 20 days</tspan>
+    <tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value" id="age_data">22 years, 6 months, 21 days</tspan>
     <tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ........................................... </tspan><tspan class="value">Vicharak</tspan>
     <tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">Systems Software Development Intern</tspan>
     <tspan x="390" y="130" class="cc">. </tspan><tspan class="key">WM</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value">NIT Srinagar</tspan>
