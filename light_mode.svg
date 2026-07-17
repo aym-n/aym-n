@@ -1,65 +1,120 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="JetBrainsMono, monospace" width="985px" height="530px" font-size="16px">
-  <style>
-    @font-face {
-      src: local('JetBrains Mono'), local('JetBrainsMono');
-      font-family: 'JetBrainsMono';
-      font-display: swap;
-    }
-    .key {fill: #4078c0;} /* GitHub Indigo */
-    .value {fill: #6e5494;} /* GitHub Butterfly Bush */
-    .addColor {fill: #6cc644;} /* GitHub Mantis */
-    .delColor {fill: #bd2c00;} /* GitHub Milano Red */
-    .cc {fill: #616e7f;} /* Gray for comments */
-    text, tspan {white-space: pre;}
-  </style>
-  <rect width="985px" height="530px" fill="#fafafa" rx="15"/> <!-- GitHub Alabaster -->
-  <text x="15" y="90" fill="#333" class="ascii"> <!-- GitHub Mine Shaft -->
-    <tspan x="15" y="90" fill="#4078c0">              .',;::::;,'.              </tspan> <!-- GitHub Indigo -->
-    <tspan x="15" y="110" fill="#4078c0">          .';:cccccccccccc:;,.          </tspan>
-    <tspan x="15" y="130" fill="#4078c0">       .;cccccccccccccccccccccc;.       </tspan>
-    <tspan x="15" y="150" fill="#4078c0">     .:cccccccccccccccccccccccccc:.     </tspan>
-    <tspan x="15" y="170" fill="#4078c0">   .;ccccccccccccc</tspan>;.:dddl:.;<tspan fill="#4078c0">ccccccc;.   </tspan>
-    <tspan x="15" y="190" fill="#4078c0">  .:ccccccccccccc</tspan>;OWMKOOXMWd;<tspan fill="#4078c0">ccccccc:.  </tspan>
-    <tspan x="15" y="210" fill="#4078c0"> .:ccccccccccccc</tspan>;KMMc;<tspan fill="#4078c0">cc</tspan>;xMMc:<tspan fill="#4078c0">ccccccc:. </tspan>
-    <tspan x="15" y="230" fill="#4078c0"> ,cccccccccccccc</tspan>;MMM.;<tspan fill="#4078c0">cc</tspan>;;WW::<tspan fill="#4078c0">cccccccc, </tspan>
-    <tspan x="15" y="250" fill="#4078c0"> :cccccccccccccc</tspan>;MMM.;<tspan fill="#4078c0">cccccccccccccccc: </tspan>
-    <tspan x="15" y="270" fill="#4078c0"> :ccccccc</tspan>;oxOOOo;MMM0OOk.;<tspan fill="#4078c0">cccccccccccc: </tspan>
-    <tspan x="15" y="290" fill="#4078c0"> cccccc</tspan>:0MMKxdd:;MMMkddc.;<tspan fill="#4078c0">cccccccccccc; </tspan>
-    <tspan x="15" y="310" fill="#4078c0"> ccccc</tspan>:XM0<tspan fill="#4078c0">';cccc;</tspan>MMM.;<tspan fill="#4078c0">cccccccccccccccc' </tspan>
-    <tspan x="15" y="330" fill="#4078c0"> ccccc</tspan>;MMo<tspan fill="#4078c0">;ccccc</tspan>;MMW.;<tspan fill="#4078c0">ccccccccccccccc;  </tspan>
-    <tspan x="15" y="350" fill="#4078c0"> ccccc</tspan>;0MNc<tspan fill="#4078c0">.ccc.</tspan>xMMd:<tspan fill="#4078c0">ccccccccccccccc;   </tspan>
-    <tspan x="15" y="370" fill="#4078c0"> cccccc</tspan>;dNMWXXXWM0::<tspan fill="#4078c0">cccccccccccccc:,    </tspan>
-    <tspan x="15" y="390" fill="#4078c0"> cccccc</tspan>;.:odl:.;<tspan fill="#4078c0">cccccccccccccc:,.       </tspan>
-    <tspan x="15" y="410" fill="#4078c0"> :cccccccccccccccccccccccccccc:'.       </tspan>
-    <tspan x="15" y="430" fill="#4078c0"> .:cccccccccccccccccccccc:;,..          </tspan>
-    <tspan x="15" y="450" fill="#4078c0">   '::cccccccccccccc::;,.               </tspan>
-  </text>
-  <text x="390" y="30" fill="#333"> <!-- GitHub Mine Shaft -->
-    <tspan x="390" y="30">aym-n@github</tspan> -———————————————————————————————————————————-—-
-    <tspan x="390" y="50" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ................................... </tspan><tspan class="value">Fedora Workstation</tspan>
-    <tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value" id="age_data">23 years, 1 month, 26 days</tspan>
-    <tspan x="390" y="90" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> ........................................... </tspan><tspan class="value">Vicharak</tspan>
-    <tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">Systems Software Development Intern</tspan>
-    <tspan x="390" y="130" class="cc">. </tspan><tspan class="key">WM</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value">NIT Srinagar</tspan>
-    <tspan x="390" y="150" class="cc">. </tspan><tspan class="key">WM Theme</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">Computer Science and Engineering, 26'</tspan>
-    <tspan x="390" y="170" class="cc">. </tspan>
-    <tspan x="390" y="190" class="cc">. </tspan><tspan class="key">Terminal</tspan>:<tspan class="cc"> ........................................ </tspan><tspan class="value">Ghostty</tspan>
-    <tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Shell</tspan>:<tspan class="cc"> ............................................... </tspan><tspan class="value">zsh</tspan>
-    <tspan x="390" y="230" class="cc">. </tspan><tspan class="key">CPU</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">Intel i5-10300H (8) @ 2.500GHz</tspan>
-    <tspan x="390" y="250" class="cc">. </tspan><tspan class="key">GPU</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">NVIDIA GeForce GTX 1650 Mobile</tspan>
-    <tspan x="390" y="270" class="cc">. </tspan>
-    <tspan x="390" y="290" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">C, C++, Rust</tspan>
-    <tspan x="390" y="310" class="cc">. </tspan><tspan class="key">Blog</tspan>:<tspan class="cc"> .................................... </tspan><tspan class="value">aym-n.github.io</tspan>
-    <tspan x="390" y="330" class="cc">. </tspan><tspan class="key">LeetCode</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value">aym-n</tspan>
-    <tspan x="390" y="350" class="cc">. </tspan>
-    <tspan x="390" y="370">- Contact</tspan> -——————————————————————————————————————————————-—-
-    <tspan x="390" y="390" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ................................. </tspan><tspan class="value">ajm8982@gmail.com</tspan>
-    <tspan x="390" y="410" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ............................................ </tspan><tspan class="value">aym-n</tspan>
-    <tspan x="390" y="430" class="cc">. </tspan>
-    <tspan x="390" y="450">- GitHub Stats</tspan> -—————————————————————————————————————————-—-
-    <tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> .... </tspan><tspan class="value" id="repo_data">84</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">94</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ............ </tspan><tspan class="value" id="star_data">19</tspan>
-    <tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commmits</tspan>:<tspan class="cc" id="commit_data_dots"> ................... </tspan><tspan class="value" id="commit_data">987</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ........ </tspan><tspan class="value" id="follower_data">88</tspan>
-    <tspan x="390" y="510" class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc" id="loc_data_dots"></tspan><tspan class="value" id="loc_data">3,949,423</tspan> (<tspan class="addColor" id="loc_add">4,591,771</tspan><tspan class="addColor">++</tspan>, <tspan id="loc_del_dots"></tspan><tspan class="delColor" id="loc_del">642,348</tspan><tspan class="delColor">--</tspan>)
-  </text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="530" viewBox="0 0 985 530" role="img" aria-labelledby="title desc">
+  <title id="title">Ayman Makroo - GitHub profile</title>
+  <desc id="desc">A modern terminal card with Ayman's profile and dynamic GitHub statistics.</desc>
+  <defs>
+    <radialGradient id="bgGlow" cx="0" cy="0" r="1" gradientTransform="translate(145 40) rotate(42) scale(530 440)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eadfcd"/><stop offset=".56" stop-color="#fbf2e4"/><stop offset="1" stop-color="#fff7eb"/>
+    </radialGradient>
+    <linearGradient id="rule"><stop stop-color="#b8734f"/><stop offset=".65" stop-color="#7a4f35"/><stop offset="1" stop-color="#7a4f35" stop-opacity="0"/></linearGradient>
+    <linearGradient id="waveGradient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#55301a"/><stop offset="1" stop-color="#24150e"/></linearGradient>
+    <linearGradient id="waveFade" x1="12" y1="0" x2="680" y2="0" gradientUnits="userSpaceOnUse"><stop offset=".2" stop-color="#fff"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <mask id="waveMask"><rect x="12" y="12" width="961" height="506" rx="22" fill="url(#waveFade)"/></mask>
+    <clipPath id="cardClip"><rect x="12" y="12" width="961" height="506" rx="22"/></clipPath>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#5e4435" flood-opacity=".16"/></filter>
+    <filter id="focusBlur" x="-30%" y="-50%" width="160%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+    <style>
+      @font-face { font-family: JetBrainsMono; src: local("JetBrains Mono"), local("JetBrainsMono"); font-display: swap; }
+      text { font-family: JetBrainsMono, "SFMono-Regular", Consolas, monospace; }
+      .muted { fill: #776b63; } .key { fill: #8f593b; } .value { fill: #302720; } .accent { fill: #7a4f35; }
+      .label { fill: #7f7067; font-size: 10px; letter-spacing: 1px; }
+      .stat { fill: #3a2f28; font-size: 19px; font-weight: 700; } .hidden { fill-opacity: 0; }
+    </style>
+  </defs>
+  <rect x="12" y="12" width="961" height="506" rx="22" fill="url(#bgGlow)" stroke="#a66d4c" stroke-opacity=".3" filter="url(#shadow)"/>
+  <g clip-path="url(#cardClip)" mask="url(#waveMask)" aria-label="Great Wave off Kanagawa Unicode art">
+    <text transform="translate(-5 20) scale(0.4767)" fill="url(#waveGradient)" opacity=".86" font-size="16" xml:space="preserve">
+      <tspan x="0" y="16">⠰⡐⢂⡒⠤⠒⣄⠒⠤⠒⣄⠒⣄⢒⡐⣂⢒⡐⢢⠔⠢⠔⢢⡐⢢⠔⣂⠒⡐⢂⠒⡰⢐⢂⡒⣐⢂⡒⡐⢆⠒⡔⢢⢒⡰⢂⢒⡐⢢⠐⡐⢂⠆⣑⠢⢒⡐⠆⠦⡑⢢⠜⡐⡂⠖⣈⠒⠤⢃⡒⠤⢃⠔⣂⠒⡐⢢⠐⣂⠒⡄⢃⠲⣐⠢⢒⡰⢌⠒⡰⢈⢒⡐⢂⠖⡐⡂⠖⡐⡂⠖⡐⣂⠒⣐⢂⢒⡐⢂⡒⡐⣂⠒⣐⠢⡑⢢⠑⢢⠜⡰⢈⢆⡑⢢⢒⠰⢂⢆⡑⢢⠢⡑⠢⠜⣐⠢⡑⢂⠲⡐⢂⡒⡐⢂⠒⡄⢢⠐⡰⢀⠒⡐⢢</tspan>
+      <tspan x="0" dy="19">⠑⡌⢣⡜⢥⢋⡴⣩⢳⠩⣄⢣⠒⣌⠲⢡⠎⡜⣡⢊⡵⢊⠥⢎⡱⣊⠴⡩⡜⣡⢇⡱⣊⠦⡱⡌⢶⡰⣱⢊⠶⣌⠣⢦⠱⣉⠦⣘⠦⠱⣌⠡⡚⡄⢣⠣⠜⣌⠣⣑⠎⢦⠱⡑⣎⠰⡩⢎⡱⢌⢲⡡⢊⡤⢣⡑⢦⠱⡄⢣⡜⠬⣑⢆⢣⢃⠖⡬⡘⡴⣉⠦⣌⢣⡜⡰⡱⣊⠵⣈⢇⢖⡡⠞⡤⣊⠦⣘⠥⡒⢥⢢⡙⢤⢓⠬⣑⠎⡥⡚⠴⣉⢦⠸⢥⣊⠵⣉⠶⣈⢇⢖⣩⠱⣊⡴⣡⢣⢍⢲⣡⢃⡖⡩⢆⢣⠜⡤⢓⡤⡩⣖⡉⢆</tspan>
+      <tspan x="0" dy="19">⡑⢌⠱⣘⠂⢇⠲⠡⢎⡱⠌⢆⡹⢄⡋⢦⡙⠴⢡⠒⣌⠱⢊⢆⡱⢌⢒⠱⡘⡰⢌⠒⡥⢒⡱⢘⢢⢑⠢⣉⠖⡌⠳⢌⡃⠦⡑⢢⢉⠒⡌⢒⡡⠜⡡⢃⠎⠤⠓⡌⠚⣄⠣⢱⠈⡥⠱⡈⠆⡍⢆⠱⢃⢌⠡⡘⢄⠣⡘⠤⡘⢄⠣⢌⠢⡘⢂⡒⠱⢠⠑⢢⠘⠤⣈⠱⢡⠘⡄⠣⢌⠢⠜⡨⢐⠡⡊⢄⠣⡉⢆⠱⡈⠦⣉⠒⠤⣩⠐⣉⢒⠡⡊⠜⣐⠢⢱⢈⡒⢡⠎⡒⠤⢣⠑⡤⢃⡌⢎⠒⡄⠣⢌⡑⢊⠆⡍⡐⢣⠐⡱⢠⠘⠤</tspan>
+      <tspan x="0" dy="19">⠌⣂⠳⣤⠋⠤⢃⠍⡢⠔⡉⠆⡔⢊⡔⢢⡍⢲⢡⠚⣄⠣⢎⡰⢐⡊⣌⢒⡡⢱⡈⠎⡔⡡⢌⢃⠲⣈⡑⠦⣘⠰⡉⢆⠬⡑⢬⠁⡎⢔⢨⡁⢆⠣⡑⡌⣘⡐⠣⢌⡱⢀⢣⢂⢭⠰⣡⠱⡘⡰⢈⢆⢡⠊⡔⢡⠊⡔⢡⢂⠱⣈⠒⡌⢢⢁⠣⢌⡑⢢⠉⢆⡉⠒⡄⢃⠆⡱⢈⡱⢈⠦⡑⢢⠉⢆⠱⡈⢆⠱⡈⢆⠱⠒⠤⡉⠖⡠⢍⡰⢈⠆⡅⠣⢌⠒⡡⠒⡌⢡⠊⡔⢣⠘⡌⡔⡡⡘⠤⣉⠴⢉⠆⡌⢅⡊⠔⡡⢂⠣⠔⡡⢊⠒</tspan>
+      <tspan x="0" dy="19">⡘⠤⡹⣄⠋⡔⣩⣦⣵⣨⡴⣭⣴⡡⠘⡄⢎⠥⣊⠱⡌⡒⠥⡒⢥⠚⢤⠢⡑⠆⡥⢋⡔⡡⢎⡌⡱⢂⡌⢣⢌⢣⡑⢎⢢⡙⠤⢋⠔⡊⢔⡈⢆⠱⢠⠓⢤⡙⡘⢦⡘⡡⢆⡍⢆⠣⣅⢣⡙⢤⠣⢌⠢⡑⢌⠢⡑⢌⠢⡌⢱⢀⢣⠘⡄⣊⠔⣢⠘⡤⡉⠆⣌⠱⣈⠲⣈⠴⡁⢆⡉⢆⡡⢃⠜⡠⢃⠜⣠⢃⡜⡠⢃⡍⢆⡱⣉⠔⡢⢆⡡⢎⡰⡉⢆⡩⢰⡑⣌⠡⢎⡰⣁⠎⡴⣐⠡⡜⡐⢆⡘⢤⢊⡔⢊⡔⡩⡐⢥⢊⠴⣁⠎⡡</tspan>
+      <tspan x="0" dy="19">⠰⡁⢖⡡⢃⠴⣹⣿⠍⣥⠞⠀⣿⠇⡱⠨⢌⠒⡡⢎⠰⣁⠣⢍⠢⢍⠢⢅⢃⡚⢄⠣⡐⢅⡊⢔⠡⢣⡘⣡⠊⠖⡌⡜⠤⡉⠖⣉⣦⣱⣬⣶⣎⣶⣯⣿⡿⠿⢿⣷⣷⣷⣬⣜⢂⠳⣈⠦⡘⢄⠣⢌⠢⡑⡌⠱⡈⢆⠱⡈⠥⢊⠄⢣⡘⢄⠚⡄⢋⠔⡩⡘⢤⠓⣌⠳⣈⠖⣩⠚⣌⠣⠜⡠⢊⠔⡩⠎⠱⠎⡰⠡⢓⡜⢢⠱⡌⢎⡕⢪⡑⢎⠴⣉⠖⣡⠣⡜⢤⢋⠦⡱⢌⢎⡱⢌⠳⣌⡙⠦⡙⢆⠣⢎⡱⠬⡑⡍⢦⡉⢾⢡⠚⡐</tspan>
+      <tspan x="0" dy="19">⡱⠌⣯⡱⢌⠢⢽⣿⠂⣼⡏⠀⣿⠇⡰⢉⣎⠱⡡⢎⢒⡡⠓⡬⢑⡊⢜⢢⢡⠚⣄⠣⢍⠢⢜⣈⢣⠱⡰⢁⢎⡱⣌⣴⣷⣿⡿⠿⠛⠋⠛⠉⠛⠋⢳⡄⠀⢁⢺⣿⣾⣽⢿⣿⣿⣦⣥⣶⣉⢆⡱⢊⠔⡡⢎⡱⠱⣈⠖⡉⢦⠉⢎⠤⡱⢈⡒⢌⡑⢊⠔⡩⢄⠩⢄⠃⢆⡘⢡⠚⢠⠑⡨⢐⠡⠊⠁⠀⠀⠐⠀⢀⠡⡌⢣⠱⡘⢢⠜⣡⠚⡌⢢⠱⡈⢆⠱⣈⠒⡌⡒⢡⠊⢆⡘⢌⢒⡰⢈⡱⠌⡌⠣⢌⠢⢡⡑⢌⢢⠘⣌⠣⡑⠌</tspan>
+      <tspan x="0" dy="19">⡰⠑⣜⠣⢌⡡⢻⣿⠂⠽⠻⠄⣺⡇⠰⢃⢎⡱⢢⢉⢆⡱⢉⢆⠣⠜⡌⢆⠣⡑⢌⢃⠎⡱⢊⢄⠣⡑⣌⣱⣾⡿⠟⠛⠉⠁⠀⠀⠔⠠⠃⠄⠠⠄⠀⠛⢿⣿⣾⠿⣿⣿⣿⣿⣿⣭⡉⠟⡻⢿⣦⣕⠪⠔⡡⢂⡓⢌⢎⠱⢌⡉⢆⠣⡑⢢⠑⡌⣘⠰⡈⠔⣈⠒⡌⠸⠠⠜⡠⠊⠔⢂⠱⠈⠂⠀⠀⠀⠀⠀⠂⡌⠖⡨⢁⠆⡙⡔⢊⡄⢣⠘⡡⢃⡑⣊⠱⡈⢆⡡⠱⣈⠱⢂⠜⡠⢎⡐⢣⠐⡡⢌⠱⡈⢆⠡⡘⠄⡆⠱⡈⠥⢘⡐</tspan>
+      <tspan x="0" dy="19">⠥⡉⢆⡋⡔⢄⢻⣿⡀⠼⡧⠐⢼⣧⠩⢌⡖⠱⢢⣉⠲⡈⢇⡸⢌⠱⡈⢆⡱⢌⠌⠦⡘⠴⣉⢦⣧⣷⡿⠛⠁⢀⠀⠠⢀⠠⠌⠀⠈⠁⠀⠈⠀⠀⠀⢀⣘⣿⣿⣶⣿⣿⠛⠩⣿⣿⣷⣾⣇⠠⣉⡿⣷⣯⣴⡃⠜⣈⠆⡍⢲⠈⢆⡱⢌⢂⠳⡀⢁⠂⠁⠊⠄⠃⠌⠡⠑⢊⠐⢉⠘⠈⠀⠀⠀⠀⠀⠁⠂⠀⠀⠈⠄⠁⠋⡴⢡⠚⡤⢘⠤⢋⡔⢡⠒⠤⠓⡌⠒⣄⠃⢆⡑⢊⠔⡡⢆⡘⢢⠉⠴⡈⢆⠱⡈⢆⠱⢨⠐⡡⠘⡄⢣⠐</tspan>
+      <tspan x="0" dy="19">⢢⢉⠆⡱⢌⢢⢺⣿⠀⢺⣷⠀⢺⣷⡑⢢⠞⡱⢃⠆⢣⡑⣌⠖⠌⠠⢁⠂⠐⡈⠌⢂⣥⣷⣿⠿⠋⠁⠀⠀⠌⠀⠂⠀⠄⡀⠐⠀⠀⠀⢠⣀⣶⣶⣷⣿⠿⡟⣯⣽⣿⣏⣳⣄⠀⠹⣿⣿⣿⣿⢿⣧⡈⢻⣿⣿⣷⡂⠜⡐⢣⡙⢢⠔⡊⠤⠓⠤⡀⠄⠂⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠄⠀⠀⠠⠀⠀⠠⠁⠀⠃⠉⠐⠉⠌⠃⠌⠦⡙⡌⡱⢨⠱⡠⠍⢆⡘⢌⠢⡑⢢⠘⠤⡉⢆⠱⡈⢆⠱⡈⠆⡅⢊⠴⢡⠘⡄⠣</tspan>
+      <tspan x="0" dy="19">⣧⣺⢾⡗⣿⢢⢹⣿⠂⢻⣿⠀⢻⣿⡌⢥⡚⡱⢌⠎⠥⠘⢄⠊⡔⡁⠂⠌⡰⣠⣼⣾⠟⠋⠀⠀⡀⠔⡀⠡⠀⢦⣵⡄⠀⡀⢀⡀⠐⢾⣿⣿⣿⣿⣿⣿⣤⣄⣱⣟⢫⣿⢻⣿⣆⣦⣿⣿⣿⣿⣼⢻⣿⣿⣿⣿⣿⡟⠤⡉⢦⠙⣢⠱⠌⡆⢍⠒⡍⢎⠰⢢⠈⠀⠄⠠⠁⠐⠠⠀⠂⢀⠀⠀⠀⢀⠀⠀⠄⠠⠀⠐⠈⠀⠄⠁⠂⡁⠈⠄⠂⡌⢠⢢⠱⡰⢑⠢⡑⢆⡩⢆⡘⢢⠱⢌⡡⢎⠱⡈⠦⡑⢌⠢⡑⢌⠒⡌⢡⢊⢄⠣⢌⡑</tspan>
+      <tspan x="0" dy="19">⡿⣉⢶⣿⣿⢇⢺⣿⠁⢸⣿⣴⣿⣿⣘⠢⣱⢁⠢⢌⠰⠡⠌⢂⡐⠠⡑⣘⣶⡿⠋⠀⠀⠀⠄⠁⠠⠀⡠⢀⣷⣾⣿⣦⣿⣿⣿⣷⣦⣿⣿⣿⣿⣾⣟⣻⣿⣿⣯⡈⠧⢿⣾⡽⣿⣿⣿⣿⡆⢻⣿⣧⣝⣋⡛⢻⣿⣷⣢⠑⡌⢣⠔⢣⠚⣌⢢⠑⡌⢢⠁⡇⠈⠄⠂⠠⢀⠂⠀⠄⠀⡀⠀⠠⠀⢀⠀⡀⠀⡀⠀⠄⠂⢁⠠⠐⡀⢄⡡⢌⠳⢌⡡⢎⠱⡰⢉⠆⣍⠒⡔⢢⠱⢌⢒⡂⠖⣈⠦⡑⢢⠑⣌⠢⡑⡌⠒⣌⠡⢊⡄⢣⢂⠌</tspan>
+      <tspan x="0" dy="19">⣷⠡⣎⣿⡿⢌⣺⣿⡁⠀⠻⣿⣹⣿⢆⢣⡗⣌⠲⡌⢦⡑⢌⠤⣐⣧⣿⠟⠉⠀⠀⠀⠌⠀⠈⠀⢠⣤⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣼⡷⠉⢸⠿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣛⣿⣿⡡⠘⡄⢊⠆⡱⢠⢂⠹⠰⡁⠎⠠⢁⠐⡈⠠⢀⠠⢈⠀⠄⡀⠐⢀⠠⠀⡀⠀⡀⠀⠄⢠⠈⡔⡠⢓⡜⢠⠃⣌⠣⢒⠔⣊⠱⡌⢣⠚⢤⡉⢆⠣⠜⣂⠦⣉⠜⡰⢂⠥⢃⠎⣄⠣⠔⡌⡱⢠⠃⡥⡘⠴⡈⢎</tspan>
+      <tspan x="0" dy="19">⡿⣑⢺⣿⣟⡼⣸⣿⢷⣿⡷⢹⣿⣿⢎⡱⣞⣌⢣⡙⢦⡘⣬⣷⡿⠛⠁⠀⠀⢀⠜⠀⠀⠠⠁⢠⣿⣿⡿⢿⣿⡿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣿⣿⢣⣿⣶⣽⣿⣿⣟⡿⠛⠿⠿⣿⡿⣿⣭⣯⣿⠿⣿⣶⣮⣐⣡⠌⢂⠡⠈⢄⡁⠆⡐⠠⠁⡀⠂⠄⡈⢀⠐⠈⡀⠠⠐⠀⠁⡀⡐⣈⠆⡩⢐⢡⢂⠜⣠⢣⠰⣁⢋⠴⡨⡑⢬⣁⠫⢔⡸⢈⠥⠓⣌⠒⢬⡘⣡⠃⢎⡡⠎⣄⠓⡬⣐⢡⢃⡜⡰⢡⠓⡸⢄</tspan>
+      <tspan x="0" dy="19">⡷⣌⣻⣿⡷⣸⢱⣿⢾⣿⣾⣤⣾⣿⣇⠳⣇⢎⢧⣙⣶⣿⠟⠁⠀⠀⠀⢀⠂⠀⠈⠀⠀⢀⣴⣿⣧⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⢏⢻⣿⣤⣻⣯⠛⣿⣦⢴⣿⣷⣮⣏⡉⠶⣦⣼⣿⣿⣿⣿⣿⣷⣆⠁⠂⠄⡒⢠⠁⢂⠌⡈⠐⡀⠂⠌⠐⡀⠁⠄⡁⠂⠄⡱⢀⠎⡰⢁⠦⣉⠲⣁⢆⡓⢌⠎⡒⢥⡉⢦⠘⡔⢃⠦⣉⢎⡱⢌⠚⡤⣑⠢⢍⡒⡰⢡⢊⡜⡰⢡⠎⡒⠴⡡⢣⡙⡔⢣</tspan>
+      <tspan x="0" dy="19">⣷⡩⢞⣿⣗⢧⢻⣿⣚⣻⣿⣙⣽⣿⣭⣛⡜⢮⣞⣾⠟⠁⠀⠀⠀⠠⠀⠀⠈⠀⠈⠀⠀⢾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣷⣿⣿⣿⡿⣿⡄⢼⣿⣾⣿⣿⣟⣻⣿⣿⣿⣿⣿⢿⣿⣿⣿⣟⣿⡀⡉⠄⡑⢂⠱⢈⠐⣈⠁⢂⠡⢈⠐⠠⢁⠂⠄⡑⢊⠔⡡⢊⠔⣃⠲⢄⡓⠌⢦⡘⡌⢎⡱⢢⡑⣊⠵⣈⢇⡚⡔⢪⠔⡩⠎⠴⣈⢓⠢⣅⢣⡑⣊⠴⢡⢃⢎⡱⢣⡑⢣⢒⡩⢆</tspan>
+      <tspan x="0" dy="19">⡧⢏⣻⣿⣟⡎⢯⡻⢟⣻⢻⣛⡟⣯⢳⢮⣽⣾⡟⠋⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠂⠀⠀⠂⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢿⣶⣾⠟⡟⣿⣿⣿⣿⣿⠿⢿⢿⣷⣬⡿⠷⠟⢛⣿⣿⣦⡐⢀⠂⣁⠊⠰⡀⠎⠄⠒⠄⢊⠐⠠⢈⠐⡈⠔⡨⠔⣡⠚⢤⠃⡖⢨⡙⠦⡘⡜⢢⡑⢣⠜⡰⢢⡑⠦⡱⢌⠣⢎⡱⡙⢆⢣⢎⡱⢂⠧⡘⡔⢪⡑⢎⢦⡑⣣⠜⡱⣊⡔⢣</tspan>
+      <tspan x="0" dy="19">⡽⣹⣒⢿⡸⣭⢳⣻⢯⣞⡷⣳⡞⣵⣿⣿⠿⠋⠀⠀⠀⠐⠀⠐⠀⠈⠄⠀⠁⠀⠂⠀⠀⠀⠚⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠃⢸⣿⣿⣴⣆⢻⣽⣆⣙⣻⣿⣿⣶⣿⠿⢿⣿⣦⣤⣽⣿⣿⣿⣤⠊⠄⢨⠐⡡⠌⢂⠍⡰⢈⠤⢃⠐⠂⠱⠌⡄⠱⢠⠉⢆⠩⡔⠣⡜⣡⠓⣌⠣⡜⣡⠎⡕⢣⠜⣡⠓⡎⠵⣊⠴⡹⡘⠦⢎⠴⣉⠶⡱⢌⡣⢜⣊⢦⡱⢎⡼⢱⡒⢬⢣</tspan>
+      <tspan x="0" dy="19">⣟⡷⡽⣎⢷⣣⣯⡷⣏⣾⣳⣷⣿⣿⡿⠋⠀⠀⡀⠂⠈⠄⠀⠀⠀⠀⢀⠀⠀⠀⠰⠀⠈⠀⠀⠈⠿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣾⡿⢿⣿⢻⣿⣿⠛⣿⣿⣿⡟⠋⠻⣿⣦⣘⣾⣿⣿⡛⢉⡉⢿⡟⢠⠊⡰⢈⠴⡈⠆⡂⢅⢂⠒⡈⠆⡍⢆⠱⢠⢃⢇⠚⡌⡱⢈⠕⡸⢄⡻⢄⠳⡜⠤⣋⡜⣥⢚⢥⡋⣜⢣⡝⡢⡕⣩⠓⣎⠵⣊⠖⣱⢪⡕⣎⠶⣌⠶⣉⢖⡣⠝⡦⢣</tspan>
+      <tspan x="0" dy="19">⣿⣿⣷⣿⣮⢷⣎⣷⣿⣾⣿⡿⠛⠁⠀⡠⡿⠀⠁⠀⠀⠀⠀⢀⣀⣶⣶⡄⠀⠀⢂⠂⠉⡄⠀⠀⠀⠀⠀⠉⠠⢘⡟⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣿⣿⣿⠟⠻⠟⢃⠐⣤⣾⣶⣿⣿⣿⣿⠿⣟⣿⡆⠁⢙⣿⣿⣿⣿⣽⣷⡀⠒⠤⡘⢄⢢⠱⣌⢂⠜⡠⢍⡂⢎⠴⠱⡘⢌⠦⣡⢃⡌⠦⣉⠲⣡⢎⡰⢡⢎⠱⢪⠱⣌⠳⢤⡙⢤⢋⢦⡹⣰⠣⢞⡱⢎⡥⡛⣌⠲⣡⠚⣄⠣⠜⡌⠳⣌⠳⣍⡚⠼⣙⠲⢣</tspan>
+      <tspan x="0" dy="19">⣷⣾⣶⣿⣾⣾⣿⣿⡿⠟⠃⠁⡀⢬⠃⡔⠁⡀⠠⣄⡀⣠⣼⣾⣿⣿⣿⠆⡀⠀⠀⠀⠀⠀⣀⣴⣤⣄⡂⠈⠘⢻⣿⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣿⡿⢃⠬⡑⣬⡜⠰⣈⠥⣉⣿⣾⣿⣿⡲⣿⣿⢿⣶⣈⠻⣿⣏⣟⢿⣿⣿⣌⢆⠱⣈⠦⣑⢢⠍⢢⡑⣆⠩⡜⣌⠣⡍⢆⠳⣄⢣⡜⣰⢡⠓⡔⡎⣔⠣⢎⡱⢃⡳⠤⣙⢢⡙⢦⣉⠦⡓⡥⣛⢬⡓⣍⢲⡱⣌⠳⣄⠏⡴⣉⠞⡬⠱⣌⡱⢢⡙⢦⢡⢋⠦</tspan>
+      <tspan x="0" dy="19">⣿⣿⣿⣿⢿⠟⠛⠉⠀⠂⡁⠢⠟⡀⠃⠀⢐⣤⣿⣿⣷⣿⣻⡿⣿⣿⡏⠄⠀⠐⣠⣀⠁⠰⣿⡻⣿⢻⣿⣦⣤⠁⠊⢿⣿⣿⣿⡟⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡑⢪⡔⡹⢦⣉⠗⡤⢲⢟⠫⡍⣿⣿⠫⡱⢤⢻⡿⣿⣷⠚⣿⣿⣯⣿⣿⣿⣎⠱⣌⢮⡑⣎⢮⢡⢛⡤⢋⡴⣊⠵⡪⢥⢓⡌⣖⡩⢆⢧⡛⣬⠱⣎⠵⣊⠖⣍⢲⡱⡱⢦⡙⢦⡜⣎⠵⣣⢍⠶⣑⢎⠶⡱⢎⡵⢪⡝⣢⠝⡼⣐⢏⡴⡱⢣⠞⣆⢏⢮⡱</tspan>
+      <tspan x="0" dy="19">⣿⠿⠛⠉⢀⣠⣄⡼⠀⠀⣄⡀⠄⠀⠀⣡⣾⣿⣿⠿⠟⠻⢿⣿⣿⣿⣷⣦⣌⠐⣻⣿⣷⣶⣿⣿⣯⣷⣿⣿⣿⣶⣐⠈⢉⠋⠁⡶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⣜⢣⡝⠶⣣⣉⢶⡞⡥⢎⡵⡱⣍⣛⠶⣑⣎⢲⣱⣿⣷⣆⣿⣿⣿⡑⣎⠻⣌⠳⣜⢲⡙⢦⢎⡣⢏⡖⣏⠶⣩⢞⡱⣋⢾⡱⣎⡵⣫⠶⣙⢦⣛⡬⢳⡍⡞⣬⢣⢳⡙⡦⣝⡲⡹⣌⡳⡱⣎⢻⡜⣎⠳⣭⢓⡞⡳⢼⡡⣟⡱⣍⠞⣴⣋⠷⡹⡜⣎⠶⣱</tspan>
+      <tspan x="0" dy="19">⠀⠤⣴⣿⣾⣿⣿⣿⣼⣶⣿⡗⢠⣂⣤⣿⣿⣿⡉⠐⡀⡀⠀⡙⢿⣿⣿⣿⣿⡿⠟⣛⣹⣯⣧⣽⡟⢁⣨⣭⣙⣉⣻⣿⣦⣿⢷⡘⡍⢻⠿⢟⣽⣯⢿⣿⣿⣿⣿⣿⣾⣿⡟⣬⢧⣏⡳⡵⣚⢧⡚⣵⣫⢶⡹⢶⡩⣖⡽⢎⡳⢻⠭⣿⣿⣿⠿⣿⡿⢬⡓⣮⠷⣜⢧⡟⣎⡞⣵⢫⡞⣼⢫⡗⣎⢷⡹⢮⡵⣓⢾⡱⢯⡹⢦⢧⡛⢧⡞⣝⡲⣝⠶⣹⠵⣪⢵⡛⣴⣋⠷⣭⢳⢺⡜⣻⡜⢯⡼⣹⢣⡗⣮⠵⣎⡟⣦⣛⡼⢳⡹⣬⣿⡟</tspan>
+      <tspan x="0" dy="19">⣄⠀⠘⣿⣿⢿⣿⣿⣽⣿⣿⣟⣿⣿⣿⣿⣿⣿⣿⣾⢱⣿⣶⣷⣾⣏⡷⣻⣿⡇⠰⠿⣿⣿⣿⣿⣿⣾⣟⣿⣿⣿⣿⣾⣯⠁⢂⣽⣴⣿⢊⡙⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣝⡶⣫⢾⣱⣛⠷⣮⠽⣖⡻⣎⣽⣣⠗⢺⡽⣣⢟⣭⢻⡼⣹⢎⡷⣭⢛⣧⣛⡶⣹⢎⡷⢼⣳⠻⣜⢧⣻⣜⡧⣟⢬⣳⡞⠧⣻⢽⡲⡽⣧⣛⠽⣮⣝⡳⣞⡵⢻⡜⢯⡳⢏⡳⢧⣛⠶⣭⢟⡮⣏⢷⡹⣵⢺⢧⡻⣵⢫⣞⡼⣹⢎⡷⣳⢬⣓⣏⣷⡿⠋⢠</tspan>
+      <tspan x="0" dy="19">⡁⠂⢠⣽⣿⣾⣿⣿⡿⢿⣿⡿⣿⡟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠙⠻⠑⢹⣿⣿⣿⣆⣽⠘⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣵⣷⡞⢉⠛⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢎⡷⢯⡷⣣⢯⡻⣼⢻⡭⢷⣣⢾⡱⡿⢞⡟⣧⢿⣺⢃⣽⢚⡽⢶⣫⢞⡃⣿⠳⢯⣽⡚⣿⣼⠳⣞⢯⣧⢯⡷⣭⢞⡳⢽⣯⢳⣏⢶⣛⡶⣭⢟⡶⣎⢷⡹⣞⢧⣛⡧⣟⣭⢟⡧⢯⣻⡜⣯⢞⡽⣎⡷⣭⣛⡮⢷⣭⡳⣎⢷⡹⢾⣱⢫⢶⣽⡿⠉⠀⡀⠄</tspan>
+      <tspan x="0" dy="19">⣿⣷⣸⣿⣿⣿⢿⣷⣾⣿⣿⣿⣇⣹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡆⣰⢿⣏⢸⣿⣿⣸⠏⠰⠸⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣇⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⡾⣏⢷⣏⡿⣱⣏⡷⢿⣹⡎⣷⢿⣹⡾⣹⡎⣷⢹⣇⢸⣏⢶⣾⢹⣿⣸⢿⣶⢿⣶⣹⢷⡾⣿⢹⣾⡸⢷⣹⢷⡾⣹⠎⡿⢷⣾⢹⣎⣷⢹⣎⣷⣉⡏⣷⣹⢾⡹⣾⣱⡾⣏⡾⡿⣶⢏⡷⣏⡿⣸⢷⡹⣎⣹⢷⣇⢿⡸⣏⡹⣇⣏⣏⣿⡿⠀⠀⠰⠀⠀</tspan>
+      <tspan x="0" dy="19">⣿⣿⢿⣿⣛⢿⣾⣹⣿⣿⡟⢋⣿⡟⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣧⣩⣦⣽⡟⣌⠓⣜⣻⣷⡾⠛⠋⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⢳⣭⣟⢾⣻⣵⣫⢽⢯⣳⠽⣯⣳⢯⣝⣷⣻⡽⣳⡬⣟⡾⣦⣯⡱⢿⣸⣗⣪⢯⢷⣛⢮⣳⢯⡟⣾⢽⣳⢿⣚⡷⣯⢻⣝⣛⣮⣟⣞⠾⣝⡾⣖⣯⡽⣳⣭⢷⡻⣵⡳⣽⣣⢿⣹⣞⣭⢷⣫⣽⢳⣯⣝⢯⣳⢏⣞⣧⢻⡼⣳⣽⣾⣿⠋⠁⠠⠐⠀⡐⠰</tspan>
+      <tspan x="0" dy="19">⣯⣽⢻⣿⣽⣾⣻⣿⣿⣿⣷⣾⣿⣷⣦⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⢻⣷⣿⣿⣿⣿⣏⣽⣅⠀⢿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⡿⣜⣮⢿⣷⣣⣟⣯⢿⣹⡟⣷⡽⣞⣟⣾⣳⢿⣝⣳⢽⣻⡴⢯⡿⡴⣿⢾⣹⣯⣟⡽⣯⢟⣯⣻⢧⣟⣧⠿⣽⣃⢿⣻⢮⡿⣼⣳⣞⡿⣝⣳⢿⣼⣳⢟⣮⣟⣽⣳⣻⡵⣯⢯⢷⡾⣹⢯⣷⣹⢟⣞⢮⡷⣹⣞⣾⣮⢷⣽⣿⣿⠏⠁⠠⠉⠂⠄⠠⣴⣿</tspan>
+      <tspan x="0" dy="19">⣿⣿⣷⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⢿⣧⣭⣭⣿⣿⣿⣿⣿⣿⣾⣶⣦⣤⣘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡽⣞⣯⣞⣷⣻⡞⣧⢯⣟⣷⣻⡽⣞⡷⢯⣛⡾⣯⢾⠓⣿⣧⣿⣻⡼⣟⣷⣻⢾⣽⣞⡿⣾⣽⣻⠾⣽⣻⢷⣻⢶⣻⢯⣿⣱⡷⢯⡽⣏⣿⣻⣞⣽⣻⣞⣾⣳⢯⣷⣻⡽⣯⣟⡾⣯⣟⡶⣯⢟⣾⢫⣞⣷⣿⣿⣿⣿⣿⡿⠃⢀⠃⠄⡁⠢⣴⣘⣿⣿</tspan>
+      <tspan x="0" dy="19">⣉⣽⣿⣿⣿⡿⢟⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⣹⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡽⣾⡽⣞⣷⣻⢷⣾⣳⢯⠷⣿⣹⣟⣯⠿⣽⣳⣬⡟⣶⣽⣞⣷⣻⣽⣞⡷⣿⡾⣽⣻⢷⣳⢯⣟⡿⣽⢯⣟⣯⣟⡿⣞⣷⣻⢿⣽⣻⣞⣷⣻⣞⣷⣻⢾⣽⣻⣞⣷⣻⢷⣯⣟⡷⣾⣽⣳⣟⣾⣻⣾⣿⣿⣿⣿⣿⠟⠀⠀⠤⠀⠂⢀⠀⣼⣿⣿⣿</tspan>
+      <tspan x="0" dy="19">⣿⣇⣀⣎⣴⣾⣽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠁⠠⠀⠄⠈⠉⠛⠿⠿⢿⣿⣿⣿⣿⣿⣿⣷⣻⣽⡺⣧⣿⣷⡽⢻⣟⣷⣿⣮⣽⠷⣿⣿⡋⢻⣿⠾⣽⡼⣟⡿⣾⣽⣷⣻⣟⣻⡿⣽⣻⣞⡿⣽⣻⣞⡷⣯⢿⣽⡾⣽⡿⣞⣷⣻⣞⣷⣻⢾⣽⣻⣞⣷⢿⡾⣽⣻⢾⣽⣻⢷⣯⣷⣿⣾⣿⣿⣿⣿⣿⡿⠁⠄⡠⠛⠂⢁⠀⠻⣿⣮⣷⣿⣿</tspan>
+      <tspan x="0" dy="19">⣿⣿⣿⣿⣿⣿⣿⣿⢯⣿⡟⢛⢻⣿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⠀⠄⡰⠀⡐⠀⣀⠀⠀⠈⠻⣿⣿⣿⣿⣿⣷⣯⣷⣿⣾⡽⣿⣿⣯⣿⣿⣿⣿⣶⣿⣿⣿⣿⣏⣿⡾⣽⣻⣟⣷⡿⣷⣟⣿⣽⣿⣯⢷⣯⣽⣿⣿⣏⣽⣿⣻⣾⡽⣿⣽⡿⣽⡷⣿⣽⣯⣿⣽⡷⣿⣯⡿⣟⣿⣽⢿⣾⣿⣿⣿⣿⡿⣿⣿⣿⣿⠿⠋⠀⠀⠖⠁⡀⠐⢀⣬⣴⣤⣿⣿⣿⣿</tspan>
+      <tspan x="0" dy="19">⣿⣿⣠⣿⣉⣶⣿⣿⢿⣿⠻⣿⣿⣿⣿⣿⡿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠋⠁⠀⠀⠀⠆⠀⠰⠀⠡⢡⠘⠄⠀⠐⠀⠙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣥⣿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣻⣾⣷⣿⣿⣿⣾⣟⣷⣾⣿⣾⡿⣷⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣾⣿⣿⣽⣿⣿⣿⣻⣿⣿⣿⣿⡻⣿⣿⣿⣿⠟⠁⠀⡠⠘⠀⠌⠐⣠⣽⣾⣿⣿⣿⣿⣿⣿⣿</tspan>
+      <tspan x="0" dy="19">⣿⣿⢛⣿⣿⣿⣿⢿⢊⢹⣶⣴⣿⣿⣿⣿⣿⣳⣾⢿⣻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⠀⠀⠀⢂⠆⠀⢀⠀⣀⠀⠀⠀⠌⠄⡈⠀⠀⠘⣶⣟⢿⣿⣿⣿⣿⣿⣿⣿⣯⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠘⠂⠠⢹⣆⣡⡈⢠⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+      <tspan x="0" dy="19">⣿⣾⣿⣿⣿⣧⣿⣾⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣭⣾⣿⣿⣿⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠋⠀⠀⠀⢆⠁⠀⠀⠐⠀⠘⠹⣷⡤⠀⠀⡄⠐⢂⠀⠀⠈⢻⣷⣍⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠉⠙⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣿⣿⣿⡿⠟⡉⠐⣀⠡⣦⣴⣽⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+      <tspan x="0" dy="19">⠏⢽⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣾⢿⣽⣾⣿⣿⢿⣿⡿⢿⣫⣽⣿⣿⠿⠟⠛⠋⠁⠀⠀⠀⡌⠐⠈⠀⠀⠀⢀⣼⣿⣿⣧⠀⠀⠀⠀⢀⠂⠀⠃⠀⠀⠙⣿⣇⠀⡙⠛⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠋⠀⠄⠁⠠⠐⡙⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⠿⠛⠁⢂⠄⢈⠙⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⢿⣛⣿⣿</tspan>
+      <tspan x="0" dy="19">⠄⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣮⡳⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣿⣿⣷⣼⣿⡿⠋⠁⠀⠀⠀⠄⠀⡐⠐⠀⠀⠀⠀⢈⣴⣧⣾⣿⣿⣷⣧⠀⠀⠀⠄⠀⠈⠘⠠⠀⠠⠀⠘⢿⣧⣤⠀⢤⣄⢠⡴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⡁⢂⣸⣤⣤⠈⠤⢓⡀⢄⣭⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣿⣽⡿⠟⠋⠀⠢⣄⡈⠄⣀⣂⣄⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⣿⢫⣵⣾⣷⣿⡿⣿</tspan>
+      <tspan x="0" dy="19">⠀⠀⠈⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⣿⣿⣿⣿⣿⣿⣿⣭⣿⣿⡿⠟⠛⠁⠀⢠⠀⠄⡉⠂⠈⠁⠀⢀⣠⣤⣤⣰⣶⣮⣝⣣⣼⠈⣿⣿⣷⣦⣰⣶⣆⠀⠀⢡⣄⡀⠐⠀⠀⠻⢿⣶⡈⣽⡛⠴⣣⢻⣝⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⣿⣿⣿⣿⣿⣿⣠⣼⣿⣷⣦⣯⣿⣽⣼⣻⣿⣿⣿⣿⣿⣿⣻⣿⣿⣾⣷⣿⠿⡛⢉⣴⣠⣰⣄⢢⡿⣻⢷⣿⣿⣿⣿⣿⣿⣿⣿⡿⢿⣿⣭⣷⣾⣿⣿⣿⣿⠟⣣⣴⣿</tspan>
+      <tspan x="0" dy="19">⠀⠀⠁⠀⠈⠙⠻⢿⣿⣿⣿⣿⣿⣿⣿⢿⡿⠟⠋⠉⠉⠉⠁⠉⠉⠙⠛⣉⢀⠠⣀⢀⡀⠀⠈⠡⠂⠐⠀⠀⠀⡐⣼⣿⣿⡟⠉⣭⣛⣿⣿⣿⣷⣿⡿⠛⢿⣯⣹⣿⣦⣠⣿⣿⣿⡤⣴⣄⠀⠠⢿⣷⣙⣿⣦⡁⠉⡘⡚⠍⢛⡿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣛⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⢟⡋⠁⡐⢲⣿⣷⣬⣓⣿⣿⣷⣿⣿⣿⣿⣿⡿⢟⣛⣫⣽⡷⣭⢿⣿⣿⣿⣿⣿⣿⣛⣡⣶⣟⢯⣻</tspan>
+      <tspan x="0" dy="19">⠀⠀⢄⡀⠀⠄⠀⡀⠀⢀⡈⢀⡁⢀⠀⠀⡀⢀⢠⣀⠄⢀⠠⠉⢠⠐⠀⢘⣮⡱⡙⢎⣳⣦⡀⠀⠀⡀⣄⢀⢠⣿⣿⡟⣋⣴⣾⣿⣿⣿⣿⣿⢟⣿⡀⢀⢸⣿⣽⣿⣿⣧⣿⣿⣿⣷⠿⣿⣄⠀⠊⢿⣿⣿⣿⣿⣄⠀⢽⣷⣦⡐⠈⠹⢿⣿⣛⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠟⠛⠋⣉⢀⣀⢢⣼⣿⣿⣷⢦⣔⣾⣿⣿⣿⡿⠿⢟⣛⣫⠽⡔⣞⣯⣷⣽⣾⣿⣿⣾⣿⣿⣿⢟⣫⣵⣿⡟⣯⣝⣶⣹</tspan>
+      <tspan x="0" dy="19">⠃⠀⠀⡀⠀⣀⣠⣤⣄⣉⠀⠉⠳⢘⡿⠌⠃⣤⡾⢹⣿⡄⠀⠡⠀⠎⠀⠀⠙⠻⡗⣌⠲⠽⣷⣆⠀⢻⣿⣿⣿⣿⣿⣟⣻⣝⢲⡻⢻⠟⠋⠀⠚⢿⣿⢿⣾⣿⢿⣿⣿⣿⣿⣿⣿⣿⣷⣽⣿⣶⣀⠄⠙⣿⣷⣿⣿⣶⡈⠽⣿⣿⣾⡣⢌⣿⣿⣿⡷⣤⣁⠒⠢⠭⠽⣭⢉⡩⣍⡉⣽⡉⠩⢭⡀⢤⡀⠶⣄⠂⣿⣦⣴⣿⣿⣿⣿⡿⡿⠿⠛⠟⠻⣿⣿⣯⣴⣚⣟⣻⣮⣙⢯⣿⣾⣿⣿⣿⣿⣿⣿⣿⠿⣩⢖⡻⢿⡹⢶⣙⢮⢻⣿⣿</tspan>
+      <tspan x="0" dy="19">⠀⠀⠠⢷⣿⣿⣿⣿⡻⣿⣷⣦⠁⢀⠂⠀⢥⣌⢳⢣⠾⣿⠀⠀⠁⠀⠀⡁⣾⢿⡿⣷⡿⣜⣭⣿⢆⠀⠙⠛⠛⠋⠉⠻⣿⡎⣡⣀⠁⠀⠠⠀⠀⠙⡋⣿⣿⣧⠟⢻⣿⣿⣿⣿⣿⡻⣿⣿⣿⣿⣿⣿⣆⠠⡙⢿⣿⣿⣿⣖⢻⣿⣿⣿⣾⡜⣿⣿⣿⣷⣟⡾⣤⣀⠂⠀⣹⣤⣄⣁⠀⠉⠑⠋⠙⠋⠛⠋⠉⢪⣭⣉⠉⡁⠈⠁⣤⣄⣀⠰⢫⣶⣧⣀⣉⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⣡⣾⣱⣋⣾⣱⣿⣿⣿⣿⣿⣿⣿</tspan>
+      <tspan x="0" dy="19">⡖⠀⠖⠂⠙⠛⢿⣿⣿⣿⣿⣿⣿⣶⣾⣦⣼⡟⣯⠣⣏⢱⣶⣷⡄⣨⣗⠷⣮⠹⠉⠙⣷⣤⡘⣿⡿⠀⠈⠐⠀⠀⠐⣠⣭⣿⡿⣿⣷⣶⣤⡄⣈⣤⣷⣾⣿⡇⠀⣈⣿⣿⣿⣿⣿⣿⣼⢿⣷⣽⣿⣾⣿⣧⣐⣠⢿⢻⣿⣿⣶⣻⣿⣿⣿⣿⣾⣿⣿⣿⣿⣿⣝⡿⣷⣆⡀⢣⢛⡿⣷⣮⣄⡐⠀⢴⣤⣶⣤⡉⠻⣿⣿⣷⣶⣥⣉⠛⠿⣿⣶⣦⣬⣿⣭⣿⣷⣶⣯⣿⣯⣿⣿⣯⣿⣿⣿⡿⠏⠁⠠⠙⠻⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+      <tspan x="0" dy="19">⠀⠀⠈⠀⢀⠀⠀⢠⢠⣤⡙⣿⡿⢏⣙⡽⠿⣙⢦⡛⢠⣿⣿⣿⣿⣿⠛⣷⡌⢀⣰⣼⣿⣿⣿⠟⠁⢦⡀⣷⣦⠀⠂⣼⣿⣿⣿⢾⣿⣿⣿⣷⣿⣿⣿⡟⢨⢷⣄⠠⢹⣿⣿⣿⣿⣿⣿⣷⡜⡻⢿⣿⣿⣿⣿⣿⣯⣀⡌⠛⠻⣿⣿⣿⣿⣿⣿⣿⣿⣻⣿⣿⣿⣿⣶⣝⣛⢦⣆⡌⠙⢿⣿⣿⣿⣴⣈⠖⣣⠿⣷⣦⣝⣛⠿⣿⣿⣿⣷⣦⣭⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⠁⣄⣦⣮⣴⣶⣷⣦⣤⣤⣫⣍⣭⣭⣿⣿⣿⣿</tspan>
+      <tspan x="0" dy="19">⠀⠀⠐⣂⠀⣾⣶⣯⣿⣿⣿⣿⣿⣿⣿⣿⣴⣿⣷⣽⣾⣿⣿⣿⣿⣿⡟⣿⢻⡇⣤⣠⣿⢋⣤⣬⣐⢿⢻⣶⣿⣆⠐⢻⣿⣿⣻⣿⣽⣟⣿⣟⣥⣿⠛⣵⣾⣄⣷⡄⠠⠘⣿⣿⣿⣿⣿⣿⣿⣷⣩⠻⣿⣿⣿⣿⣿⣿⣿⣷⣦⣕⣮⣿⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣼⣹⣚⣌⡹⢿⣿⣿⣿⣿⣦⣽⣚⡽⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡃⣄⢶⣻⡟⣽⣛⣯⣳⣾⣽⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+      <tspan x="0" dy="19">⠀⠀⠐⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⢘⠶⣏⡻⠰⣟⣧⣞⣿⣻⣿⡿⠿⢿⣿⣿⢀⣿⣿⣧⢿⣿⣾⣿⣿⣿⣽⣿⣧⣿⣿⣿⣽⣿⣤⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣷⣹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣷⣧⣏⡛⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠋⠀⠠⢿⡞⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⣿⣿⣿</tspan>
+      <tspan x="0" dy="19">⠀⣰⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿⣿⣥⣴⣿⢋⢿⣥⣽⣾⣿⡟⢋⣠⣴⣶⣄⡰⣿⣼⣤⣿⣿⣿⢿⡯⢼⣿⣿⣿⣿⣿⣿⣿⣿⣾⣿⣿⣇⡀⣦⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣟⡿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣉⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠋⠑⣀⢠⣁⣌⣀⣦⣰⣠⣌⣭⣍⣿⣹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+      <tspan x="0" dy="19">⠡⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⠿⠾⠙⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢿⣿⣿⢟⡻⠜⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣳⢾⣭⣿⣹⢛⠿⢿⠿⣿⢿⡿⣿⣿⣾⠣⢼⡻⣬⡗⣩⢚⡝⢯⣛⢛⡟⣻⢛⡟⡻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠏⠠⣌⣵⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+      <tspan x="0" dy="19">⢼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⠂⠛⠙⠛⢁⠠⣀⣠⠀⢂⠁⠀⢀⣙⠯⡝⢿⣿⣿⣿⣿⣷⣾⣿⣿⣮⠀⠁⠠⠀⢊⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣮⣝⢿⣿⣻⢿⣻⢶⡿⣿⣾⣿⣶⣿⣶⣷⣷⣿⣦⣷⣬⣧⣘⣦⣱⣥⣷⣘⣭⣲⣍⣳⣜⣿⣿⣿⣿⡿⠋⢉⢁⢠⣄⢿⣼⣿⣿⣿⣿⣾⣻⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠟⠛⠛⠿⠟⠿⠿</tspan>
+      <tspan x="0" dy="19">⢾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣿⣿⠆⠾⣿⣿⣿⣿⣿⣷⣾⣷⣾⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠿⡷⣶⣄⣶⠠⢉⠛⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣯⣿⢿⣯⣿⢷⣻⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠛⠉⣽⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠉⠉⠁⢀⢀⡀⣤⣰⣦⣾⣶⣶⣶⣦⣴</tspan>
+      <tspan x="0" dy="19">⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢡⡴⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⡈⠉⢿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣾⣿⣾⣤⣤⣦⡤⠘⠛⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠟⠟⢋⢉⣉⢀⣀⢠⣀⣀⡁⣀⠈⡙⠿⠿⠿⡿⣿⣿⣿⡿⡿⢿⠿⠿⠿⠿⠟⣛⢻⣩⢩⡤⣄⢦⣒⢦⡖⡾⢞⣫⠽⣭⢳⢞⡲⣝⢶⡳⣞⢶</tspan>
+      <tspan x="0" dy="19">⠀⠘⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣦⣿⣷⣿⣿⣿⣷⣼⡿⣯⣼⣟⡋⠛⣾⣶⣷⣿⣿⣿⠇⣠⠉⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣮⣿⢿⣧⣌⣴⣶⢢⡍⢩⠯⠝⣻⡛⢛⡛⠟⠿⠿⠿⢟⢻⢛⢛⣋⣍⣩⢭⡵⢦⣴⢢⡶⣜⣮⡾⣜⣳⣮⣷⣾⡽⣹⢎⡷⣹⢖⣻⢶⡳⣖⡶⣴⢲⡴⢦⣎⡶⣽⣺⣽⣭⠷⣭⢳⣝⣮⢷⡹⣎⡳⣝⢯⡞⡽⣎⣟⣮⢳⣝⣮⣳⢽⣺</tspan>
+    </text>
+  </g>
+  <circle cx="38" cy="37" r="5" fill="#e75868"/><circle cx="56" cy="37" r="5" fill="#e6a938"/><circle cx="74" cy="37" r="5" fill="#38aa68"/>
+  <text x="492.5" y="41" text-anchor="middle" class="muted" font-size="11">aym-n - profile</text>
+  <g aria-label="Profile focus">
+    <rect x="24" y="294" width="252" height="106" rx="24" fill="#fff7eb" fill-opacity=".9" filter="url(#focusBlur)"/>
+    <path d="M43 288h220" stroke="url(#rule)" stroke-width="2"/>
+    <text x="43" y="324" font-size="13">
+      <tspan class="key">+-</tspan><tspan class="value"> systems</tspan>
+      <tspan x="43" dy="24" class="key">+-</tspan><tspan class="value"> compilers</tspan>
+      <tspan x="43" dy="24" class="key">+-</tspan><tspan class="value"> hardware</tspan>
+    </text>
+  </g>
+  <g>
+    <text x="365" y="84" font-size="12"><tspan class="muted">~/github </tspan><tspan class="accent">&#x276F;</tspan><tspan class="muted"> whoami</tspan></text>
+    <text x="365" y="121" class="value" font-size="30" font-weight="700">Ayman Makroo</text>
+    <text x="365" y="148" class="key" font-size="14">SDE-1 @ Increff</text>
+    <text x="365" y="177" class="muted" font-size="11">uptime  <tspan id="age_data" class="value">23 years, 1 month, 26 days</tspan><tspan id="age_data_dots" class="hidden"> </tspan></text>
+    <text x="365" y="218" font-size="12">
+      <tspan class="key">education</tspan><tspan x="480" class="value">B.Tech, Computer Science &amp; Engineering &#xB7; NIT Srinagar &#xB7; 2026</tspan>
+      <tspan x="365" dy="30" class="key">building</tspan><tspan x="480" class="value">systems &#xB7; compilers &#xB7; hardware</tspan>
+      <tspan x="365" dy="30" class="key">languages</tspan><tspan x="480" class="value">Verilog &#xB7; Go &#xB7; Rust &#xB7; C++ &#xB7; Python</tspan>
+      <tspan x="365" dy="30" class="key">links</tspan><tspan x="480" class="accent">aym-n.me &#xB7; github.com/aym-n</tspan>
+    </text>
+    <rect x="365" y="323" width="565" height="2" rx="1" fill="url(#rule)"/>
+    <g transform="translate(365 356)">
+      <g><text class="stat" id="repo_data">84</text><text id="repo_data_dots" class="hidden"> </text><text y="20" class="label">REPOS</text></g>
+      <g transform="translate(105)"><text class="stat" id="contrib_data">94</text><text id="contrib_data_dots" class="hidden"> </text><text y="20" class="label">CONTRIBUTED</text></g>
+      <g transform="translate(245)"><text class="stat" id="commit_data">987</text><text id="commit_data_dots" class="hidden"> </text><text y="20" class="label">COMMITS</text></g>
+      <g transform="translate(365)"><text class="stat" id="star_data">19</text><text id="star_data_dots" class="hidden"> </text><text y="20" class="label">STARS</text></g>
+      <g transform="translate(470)"><text class="stat" id="follower_data">88</text><text id="follower_data_dots" class="hidden"> </text><text y="20" class="label">FOLLOWERS</text></g>
+    </g>
+    <rect x="365" y="407" width="565" height="1" fill="#8f593b" fill-opacity=".22"/>
+    <text x="365" y="438" class="label">LINES OF CODE ON GITHUB</text>
+    <text x="365" y="470" class="stat" id="loc_data">3,949,423</text><text id="loc_data_dots" class="hidden"> </text>
+    <text x="555" y="470" font-size="12">
+      <tspan class="muted">activity </tspan><tspan fill="#188b52" id="loc_add">4,591,771</tspan><tspan id="loc_add_dots" class="hidden"> </tspan><tspan fill="#188b52">++</tspan>
+      <tspan class="muted">  /  </tspan><tspan fill="#c63f58" id="loc_del">642,348</tspan><tspan id="loc_del_dots" class="hidden"> </tspan><tspan fill="#c63f58">--</tspan>
+    </text>
+  </g>
 </svg>
