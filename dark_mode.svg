@@ -92,7 +92,7 @@
     <text x="365" y="84" font-size="12"><tspan class="muted">~/github </tspan><tspan class="accent">❯</tspan><tspan class="muted"> whoami</tspan></text>
     <text x="365" y="121" class="value" font-size="30" font-weight="700">Ayman Makroo</text>
     <text x="365" y="148" class="key" font-size="14">SDE-1 @ Increff</text>
-    <text x="365" y="177" class="muted" font-size="11">uptime  <tspan id="age_data" class="value">23 years, 1 month, 28 days</tspan><tspan id="age_data_dots" class="hidden"></tspan></text>
+    <text x="365" y="177" class="muted" font-size="11">uptime  <tspan id="age_data" class="value">23 years, 1 month, 29 days</tspan><tspan id="age_data_dots" class="hidden"></tspan></text>
     <text x="365" y="218" font-size="12">
       <tspan class="key">education</tspan><tspan x="480" class="value">B.Tech, Computer Science &amp; Engineering · NIT Srinagar · 2026</tspan>
       <tspan x="365" dy="30" class="key">building</tspan><tspan x="480" class="value">systems · compilers · hardware</tspan>
@@ -105,7 +105,7 @@
       <g transform="translate(105)"><text class="stat" id="contrib_data">95</text><text id="contrib_data_dots" class="hidden"></text><text y="20" class="label">CONTRIBUTED</text></g>
       <g transform="translate(245)"><text class="stat" id="commit_data">993</text><text id="commit_data_dots" class="hidden"> ................... </text><text y="20" class="label">COMMITS</text></g>
       <g transform="translate(365)"><text class="stat" id="star_data">19</text><text id="star_data_dots" class="hidden"> ............ </text><text y="20" class="label">STARS</text></g>
-      <g transform="translate(470)"><text class="stat" id="follower_data">88</text><text id="follower_data_dots" class="hidden"> ........ </text><text y="20" class="label">FOLLOWERS</text></g>
+      <g transform="translate(470)"><text class="stat" id="follower_data">87</text><text id="follower_data_dots" class="hidden"> ........ </text><text y="20" class="label">FOLLOWERS</text></g>
     </g>
     <rect x="365" y="407" width="565" height="1" fill="#738cff" fill-opacity=".2"/>
     <text x="365" y="438" class="label">LINES OF CODE ON GITHUB</text>
